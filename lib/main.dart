@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maize_app/pages/navpages/main_page.dart';
-import 'package:maize_app/pages/welcome_page.dart';
+import 'package:maize_app/pages/detail_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MainPage(),
+      home: const DetailPage(),
     );
   }
 }
